@@ -1,0 +1,77 @@
+body {
+  font-family: "Source Sans 3", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.avatar {
+  max-height: 50px;
+  border-radius: 50%;
+}
+
+.logo {
+  max-height: 80px;
+}
+
+.post {
+  margin: 10px 0;
+  background-color: #ffffff;
+}
+
+.post-header {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.post-header .avatar {
+  margin-right: 15px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name,
+.likes {
+  font-weight: bold;
+}
+
+.location {
+  font-size: 0.9rem;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.emoji {
+  max-width: 25px;
+  padding: 5px 10px 0 0;
+}
+
+p {
+  margin: 0;
+}
+
+.likes,
+.username {
+  margin-bottom: 6px;
+}
